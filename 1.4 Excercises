@@ -1,0 +1,231 @@
+#Nambia Flag
+#Text
+Label('Namibia',200,50, fill='black', font='arial', size=30)
+#Background
+Rect(5,100,390,265, fill='white')
+#Top1Flag
+Polygon(5,100,315,100,5,310, fill=rgb(0,60,125))
+#Sun
+Star(84,174,40,12, fill=rgb(255,215,0))
+Circle(84,174,25, fill=rgb(255,215,0), borderWidth=5, border=rgb(0,60,125))
+#Mid Red Flag
+Polygon(65,365,5,365,5,325,335,100,395,100,395,140, fill=rgb(210,15,50))
+#Green Flag
+Polygon(85,365,395,155,395,365, fill=rgb(0,150,65))
+
+
+
+#Tropical Island
+#Sand
+Oval(200,200,300,80, fill='wheat')
+#Grass
+Oval(200,170,200,20, fill='green')
+#Tree
+Polygon(255,75,250,150,245,170,235,165,240,155,fill='sienna')
+#Leaves
+Star(255,75,50,9, fill='limeGreen', roundness=50)
+Circle(230,85,6, fill='maroon')
+Star(255,75,40,8, fill='green', roundness=50)
+Circle(245,80,6, fill='maroon')
+Circle(250,100,6, fill='maroon')
+# Draws the ocean.
+Rect(0, 200, 400, 200, fill='navy')
+
+
+
+#Bubble Tea
+Polygon(105,90,295,90,275,355,125,355, fill='ivory')
+# Draw the bubbles.
+### (HINT: We have bubbles in two different colors.)
+### Place Your Code Here ###
+Circle(190,280,15, fill='chocolate')
+Circle(160,325,15, fill='sienna')
+Circle(210,320,15, fill='chocolate')
+Circle(245,300,15, fill='sienna')
+# Now draw the tea inside the cup using two shapes.
+### Place Your Code Here ###
+Polygon(117,120,283,120,266,345,134,345, fill='mediumPurple', opacity=70)
+Oval(200,120,165,30, fill='mediumPurple')
+# Finally, draw the lid and the straw!
+### (HINT: Pay attention to the order of shapes.)
+### Place Your Code Here ###
+Oval(200,90,205,50, fill='dimGray')
+Line(200,40,200,90, lineWidth=30, fill='skyBlue')
+
+
+
+#Headphones
+Circle(200,190,150, border='black', borderWidth=10, fill=None)
+Rect(0,160,400,200, fill='white')
+Rect(40,160,40,80)
+Rect(320,160,40,80)
+# Draw the head and body.
+### Place Your Code Here ###
+Circle(200,200,125, borderWidth=20, border='black', fill=None)
+Line(200,325,200,400, fill='black', lineWidth=20)
+
+
+
+#Paper Pool
+#BlueLine
+Line(200,0,200,400, lineWidth=400, dashes=(1,19), fill='lightBlue')
+#RedLine
+Line(40,0,40,400, fill='red', opacity=50)
+# Draw the pool and water.
+### Place Your Code Here ###
+Oval(220,200,300,100, fill=gradient('white', rgb(210,210,210), start='top'))
+Oval(220,220,265,58, fill=gradient('azure', 'lightBlue', start='top'))
+# Draw the four waterfalls.
+### Place Your Code Here ###
+Line(83,180,83,218, fill='lightBlue')
+Line(128,160,128,200, fill='lightBlue')
+Line(310,160,310,200, fill='lightBlue')
+Line(358,180,358,218, fill='lightBlue')
+
+
+
+#Sailboat
+
+RegularPolygon(210,210,180,7, fill='tan')
+RegularPolygon(200,200,180,7, fill='powderBlue')
+Circle(270,200,65, fill='orangeRed', opacity=70)
+Circle(270,200,55, fill=gradient('orange', 'orangeRed'))
+
+Polygon(25,240,375,240,280,365,120,365, fill='cadetBlue')
+Polygon(125,135,125,205,60,205, fill='forestGreen')
+# Draw the sky and sun
+### Place Your Code Here ###
+
+
+Polygon(60,205,190,205,160,240,90,240, fill='dimGrey')
+# Draw the boat hull, left sail, and right sail.
+### Place Your Code Here ###
+
+Polygon(130,145,190,205,130,205, fill='limeGreen')
+
+
+
+#Clouds
+Rect(0,0,400,400, fill=rgb(255,185,255))
+
+#LeftCloud
+Circle(40,330,60, fill='ghostWhite', border='gainsboro', borderWidth=3)
+Circle(105,340,50, fill='ghostWhite', border='gainsboro', borderWidth=3)
+#RectCover
+Rect(50,310,30,60, fill='ghostWhite')
+#RightCloud
+Circle(340,75,50, fill='ghostWhite', border='gainsboro', borderWidth=3)
+Circle(410,120,60, fill='ghostWhite', border='gainsboro', borderWidth=3)
+Circle(260,120,70, fill='ghostWhite', border='gainsboro', borderWidth=3)
+Circle(330,150,80, fill='ghostWhite', border='gainsboro')
+#RectCovers
+Rect(295,60,20,11, fill='ghostWhite')
+Rect(365,65,20,13, fill='ghostWhite')
+Rect(245,90,155,95, fill='ghostWhite')
+
+
+
+#Panda
+#LeftEar
+Circle(100,100,40, fill='black')
+
+#RightEar
+Circle(300,100,40, fill='black')
+
+#Body
+Circle(200,400,175, fill='black')
+
+#Head
+Circle(200,200,125, fill='white')
+
+#LeftEye
+Oval(150,170,60,70, fill='black')
+
+#RightEye
+Oval(250,170,60,70, fill='black')
+
+#Mouth
+Circle(200,250,30, fill='lightCoral')
+
+#MouthCover
+Rect(170,215,60,35, fill='white')
+
+#Bamboo
+Line(100,410,190,265, lineWidth=20, fill=gradient('oliveDrab', 'darkOliveGreen', 'darkGreen'))
+
+#Nose
+Oval(200,200,50,30, fill='black')
+
+#Left Eye2
+Circle(160,160,15, fill='white')
+
+#Left Eye3
+Circle(160,160,5, fill='black')
+
+#Right Eye 2
+
+Circle(240,160,15, fill='white')
+
+#Right Eye 3
+
+Circle(240,160,5, fill='black')
+
+
+
+#Mushroom
+# Draw the mushroom cap.
+### Place Your Code Here ###
+Oval(200,190,300,280, fill=rgb(250,40,40))
+Rect(0,210,400,120, fill='paleGreen')
+Oval(200,210,300,140, fill=gradient(rgb(250,40,40), rgb(150,30,30), start='top'))
+Oval(90,190,65,80, fill=gradient('white','gainsboro',start='right'), opacity=95)
+Circle(200,135,55, fill='snow')
+Oval(310,190,65,80, fill=gradient('white','gainsboro', start='left'), opacity=95)
+# Draw the Mushroom's face.
+### Place Your Code Here ###
+Oval(200,270,180,120, fill=gradient('cornSilk', 'wheat'))
+Oval(200,280,180,90, fill=gradient('cornSilk', 'wheat'))
+# Draw the Mushroom's eyes.
+### Place Your Code Here ###
+
+
+#leftEye
+Circle(175,250,8, fill='dimGrey')
+Rect(167,250,16,25, fill=gradient('dimGrey', 'black', start='top'))
+Circle(175,275,8, fill='black')
+#pupil
+Oval(175,252,8,15, fill='white')
+
+#rightEye
+Circle(225,250,8, fill='dimGrey')
+Rect(217,250,16,25, fill=gradient('dimGrey', 'black', start='top'))
+Circle(225,275,8, fill='black')
+#pupil
+Oval(225,252,8,15, fill='white')
+
+
+
+# MountainSide (Clear Canvas)
+# background
+Rect(0, 0, 400, 300, fill=gradient('powderBlue', 'gold', start='top'))
+Rect(0, 150, 400, 300, fill=gradient('lightBlue', 'darkCyan', start='left-top'))
+Oval(140, 220, 500, 40, fill=gradient('white', 'lightBlue'), opacity=20)
+Polygon(0, 20, 200, 100, 340, 220, 0, 220,
+        fill=gradient('teal', 'midnightBlue', start='top'))
+
+# Draw the ripples in the water around the rocks.
+### Place Your Code Here ###
+Oval(100,340,420,60, fill=gradient('white', 'lightBlue'), opacity=80)
+Oval(260,260,240,40, fill=gradient('white', 'lightBlue'), opacity=40)
+# Draw the rocks in the water.
+### Place Your Code Here ###
+Polygon(240,180,360,220,340,260,160,260, fill=gradient('teal', 'darkSlateBlue', start='top'))
+Polygon(0,220,140,200,280,340,0,340, fill=gradient('darkCyan', 'darkSlateBlue', start='top'))
+# Draw the house and the rock in front of the house.
+### Place Your Code Here ###
+Polygon(80,100,140,100,160,120,100,120, fill=gradient('salmon', 'indianRed', start='top'))
+Polygon(100,120,160,120,160,160,100,160, fill=gradient('gainsboro', 'silver', start='top'))
+Polygon(80,100,100,120,100,160,80,160, fill=gradient('lightGrey', 'darkGrey', start='top'))
+Polygon(80,140,120,140,180,160,60,160, fill=gradient('darkCyan', 'midnightBlue', start='top'))
+# Draws the fog over the scene.
+Rect(0, 0, 400, 400, fill='grey', opacity=20)
