@@ -1,0 +1,177 @@
+#Shiny Lines
+# background
+Rect(0, 0, 400, 400)
+
+def onMousePress(mouseX, mouseY):
+    Line(mouseX,mouseY, 0,0, fill=gradient('red','black'))
+    # Draw a line from left-top corner to where the mouse is being clicked.
+    ### (HINT: Don't forget about the gradient!)
+    ### Place Your Code Here ###
+    pass
+
+##### Place your code above this line, code below is for testing purposes #####
+# test case:
+onMousePress(250, 150)
+onMousePress(350, 50)
+onMousePress(300, 100)
+onMousePress(250, 150)
+onMousePress(200, 200)
+onMousePress(150, 250)
+onMousePress(100, 300)
+onMousePress(50, 350)
+
+
+
+#Plaid Maker
+# background
+Rect(0, 0, 400, 400,
+     fill=gradient('darkBlue', 'teal', 'teal', 'darkGreen', start='left-top'))
+
+def onMousePress(mouseX, mouseY):
+    Line(mouseX,400, mouseX, 0, lineWidth=7, fill='fireBrick', opacity=80)
+    Line(400, mouseY, 0, mouseY, lineWidth=7, fill='fireBrick', opacity=80)
+    
+    # Draw two lines, one vertical and one horizontal that intersect where
+    # the mouse is pressed.
+    ### Place Your Code Here ###
+    
+    pass
+
+
+
+#2.2.6
+
+
+
+#Cookie
+# background
+Rect(0, 0, 400, 400,
+     fill=gradient('darkBlue', 'teal', 'teal', 'darkGreen', start='left-top'))
+
+def onMousePress(mouseX, mouseY):
+    Line(mouseX,400, mouseX, 0, lineWidth=7, fill='fireBrick', opacity=80)
+    Line(400, mouseY, 0, mouseY, lineWidth=7, fill='fireBrick', opacity=80)
+    
+    # Draw two lines, one vertical and one horizontal that intersect where
+    # the mouse is pressed.
+    ### Place Your Code Here ###
+    
+    pass
+
+
+
+#Ice Cream (Clear Canvas)
+# background
+Rect(0, 0, 400, 400, fill='skyBlue')
+
+# ice cream cone
+Circle(140, 200, 80, fill='pink')
+Rect(100, 280, 80, 100,
+     fill=gradient('peru', 'peru', 'sandyBrown', 'peru', start='left'))
+Polygon(55, 240, 230, 240, 180, 290, 100, 290,
+        fill=gradient('peru', 'peru', 'sandyBrown', 'peru', start='left-top'))
+Line(100, 350, 180, 350, fill='sandyBrown', lineWidth=60, dashes=(1, 15))
+Line(140, 320, 140, 380, fill='sandyBrown', lineWidth=80, dashes=(1, 15))
+
+# first scoop
+Circle(75, 240, 20, fill='pink')
+Circle(110, 240, 20, fill='pink')
+Circle(145, 240, 20, fill='pink')
+Circle(175, 240, 20, fill='pink')
+Circle(210, 240, 20, fill='pink')
+
+# second scoop
+Circle(140, 105, 80, fill='sienna')
+Circle(75, 168, 20, fill='sienna')
+Circle(110, 168, 20, fill='sienna')
+Circle(145, 168, 20, fill='sienna')
+Circle(175, 168, 20, fill='sienna')
+Circle(210, 168, 20, fill='sienna')
+
+def onMousePress(mouseX, mouseY):
+    # Draw the sun and add a label like in the solution.
+    ### Place Your Code Here ###
+    Circle(360,40,100, fill=gradient('orange', 'yellow', start='center'))
+    Label('The sun is hot!',300,340, font='arial', size=15, fill='black')
+
+    
+    pass
+
+def onMouseRelease(mouseX, mouseY):
+    # Draw the ice cream drips.
+    ### Place Your Code Here ###
+    Oval(85,255,10,35, fill='pink')
+    Oval(140,270,5,15, fill='pink')
+    Oval(200,255,5,25, fill='pink')
+    Oval(95,170,10,50, fill='sienna')
+    Oval(175,200,10,50, fill='sienna')
+    
+    Label('Your ice cream is melting!',300,360, font='arial', size=15, fill='black')
+    
+    # Draw a label stating the ice cream is melting.
+    ### Place Your Code Here ###
+    pass
+
+
+
+#Sun and Moon
+sky = Rect(0, 0, 400, 400, fill='midnightBlue')
+
+moon = Circle(200, 170, 100, fill='gold')
+sun = Circle(175, 140, 100, fill='midnightBlue')
+
+# Cloud
+Circle(240, 240, 30, fill='white')
+Circle(200, 260, 45, fill='white')
+Circle(150, 270, 30, fill='white')
+Circle(250, 290, 30, fill='white')
+Circle(275, 260, 40, fill='white')
+
+def onMousePress(mouseX, mouseY):
+    sky.fill='skyBlue'
+    sun.fill=gradient('yellow', 'gold')
+    moon.fill='skyBlue'
+    
+    
+    # Make it daytime by changing the fills of the global variables.
+    ### Place Your Code Here ###
+    
+    
+    pass
+
+def onMouseRelease(mouseX, mouseY):
+    # Make it nighttime by changing the fills back.
+    ### Place Your Code Here ###
+    sky.fill='midnightBlue'
+    sun.fill='midnightBlue'
+    moon.fill='gold'
+    pass
+    
+
+
+#Popping Balloons
+# background
+Rect(0, 0, 400, 400, fill='lightSkyBlue')
+
+# string
+Line(200, 330, 200, 400, fill='white', lineWidth=5, dashes=True)
+
+# balloon
+RegularPolygon(200, 370, 20, 3, fill='crimson')
+Oval(200, 185, 300, 340,
+     fill=gradient('lightCoral', 'crimson', start='right-top'))
+
+def onMousePress(mouseX, mouseY):
+    Line(mouseX,mouseY,mouseX+40,mouseY-20, fill='black', lineWidth=1)
+    Circle(mouseX+40,mouseY-20,5, fill='blue')
+    # Draw the pin.
+    ### Place Your Code Here ###
+    pass
+
+def onMouseRelease(mouseX, mouseY):
+    Star(200,200,210,9, fill='grey', roundness=10)
+    Star(200,200,190,9, fill='lightSkyBlue', roundness=70)
+    # Pop the balloon.
+    ### Place Your Code Here ###
+
+    pass
