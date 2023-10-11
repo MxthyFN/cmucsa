@@ -1,0 +1,105 @@
+#Olympic Rings
+Circle(70, 175, 60, fill=None, border='steelBlue', borderWidth=10)
+Circle(135, 225, 60, fill=None, border='gold', borderWidth=10)
+Circle(200, 175, 60, fill=None, border='black', borderWidth=10)
+Circle(265, 225, 60, fill=None, border='forestGreen', borderWidth=10)
+Circle(330, 175, 60, fill=None, border='crimson', borderWidth=10)
+
+
+
+#Crescent Moon
+Circle(200,175,100,fill=gradient('lightGrey','grey','grey',start='left'))
+Circle(235,140,100, fill=rgb(30,30,30))
+Oval(115,270,175,120, fill=rgb(90,90,90), opacity=80)
+Oval(200,305,250,100, fill=rgb(90,90,90), opacity=80)
+Oval(280,280,125,80, fill=rgb(90,90,90), opacity=80)
+Oval(215,350,100,40, fill=rgb(90,90,90), opacity=80)
+
+
+
+#Cactus (Clear Canvas and Write this)
+# Draws the background.
+Rect(0, 0, 400, 250, fill=gradient('royalBlue', 'lightSkyBlue', start='top'))
+Rect(0, 250, 400, 150, fill=gradient('navajoWhite', 'burlyWood'))
+
+# Draw the cactus shadow.
+### Place Your Code Here ###
+Oval(200,300,100,20, fill='black', opacity=20)
+# Then draw the cactus.
+### Place Your Code Here ###,
+Oval(200,235,130,140, fill='seaGreen',border='khaki', dashes=(4,3))
+Oval(200,235,100,140, fill=rgb(55,165,90), border='khaki', dashes=(4,3))
+Oval(200,235,50,140, fill='mediumSeaGreen', border='khaki', dashes=(4,3))
+Line(200,165,200,305, fill='khaki', dashes=(4,3))
+
+
+
+#Target Practice (Clear Canvas)
+# Draw the rope that the target hangs from.
+### (HINT: This exercise requires some careful use of the Inspector!)
+### Place Your Code Here ###
+Line(0,0,200,225, dashes=True, lineWidth=6, fill='dimGrey')
+Line(400,0,200,225, dashes=True, lineWidth=6, fill='dimGrey')
+# Now draw the target.
+### Place Your Code Here ###
+Circle(200,225,150, fill='dodgerBlue', borderWidth=2, border='black')
+Circle(200,225,100, fill='crimson', borderWidth=1, border='black')
+Circle(200,225,45, fill='yellow', borderWidth=1, border='black') 
+
+
+
+#1.3.6 Excerises
+
+
+
+#Diamond
+RegularPolygon(200,200,150,8, fill=gradient('aliceBlue','lightBlue','SteelBlue'))
+
+Star(200,200,150,8, roundness = 10, fill=gradient('aliceBlue', 'AliceBlue', 'LightBlue'))
+
+RegularPolygon(200,200,100,8, fill='aliceBlue')
+
+
+
+#Signature
+Label('Contract',200,80, fill='black', font='orbitron', size=18, bold=True)
+Label('Sign Here', 150, 290, fill='black', italic=True)
+Label('Sarah Smith', 190, 315, font='cursive', fill='black', size=20)
+
+
+
+#Cards
+Label(2,110, 70, fill='crimson', font='monospace', size=30, bold=True)
+Star(110,100,15,4, fill='crimson', roundness=65)
+Label('A', 150, 90, fill='crimson', font='monospace', size=30, bold=True)
+Star(150, 120, 15, 4, fill='crimson', roundness=65)
+Label('A', 280, 290, fill='crimson', font='monospace', size=30, bold=True)
+Star(280,320,15,4, fill='crimson', roundness=65)
+Star(220,210,25,4, fill='crimson', roundness=65)
+
+
+
+#Good Evening, Earth
+Label('System Loading...', 140,75, fill='lime', size=18)
+Label('Accepting Inputs:', 135, 100, fill='lime', size=18)
+Label('> python hello_world.py', 195,140, fill='lime', size=20, font='montserrat')
+Label('Good Evening, Earth', 170, 200, size=18, font='orbitron', fill='lime')
+
+
+
+#Cube
+Polygon(95,270,325,205,400,205,400,285,235,350, fill='black', opacity=30)
+Polygon(35,150,95,70,295,70,235,150, fill='darkGrey')
+Polygon(35,150,35,350,235,350,235,150, fill='silver')
+Polygon(235,150,295,70,295,270,235,350, fill='grey')
+
+
+
+#Crystal Explosion
+Star(200,200,200,13, fill=None, dashes=True, border='aliceBlue', roundness=10)
+Star(200,200,150,11, fill=None, dashes=True, border='aliceBlue', roundness=20)
+Star(200,200,100,7, fill=None, dashes=True, border='aliceBlue', roundness=5)
+Star(200,200,50,19, fill=None, dashes=True, border='aliceBlue', roundness=50)
+
+
+
