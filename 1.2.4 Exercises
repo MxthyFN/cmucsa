@@ -1,0 +1,48 @@
+#Pipe
+Rect(0,0,400,275, fill=gradient('steelBlue','skyBlue', start='top'))
+Rect(0,275,400,200, fill=gradient('tan','wheat', start='top'))
+Rect(100,125,200,50, fill=gradient('limeGreen','darkGreen', start='left'))
+Rect(125,175,150,100, fill=gradient('limeGreen','darkGreen', start='left'))
+
+
+
+#Diamond Pickaxe
+Rect(50, 275, 75, 75, fill=gradient('peru','maroon', start='center'))
+Rect(125, 200, 75, 75, fill=gradient('peru','maroon', start='center'))
+Rect(200, 125, 75, 75, fill=gradient('peru','maroon', start='center'))
+Rect(300, 50, 50, 50, fill=gradient('peru','maroon', start='center'))
+Rect(75, 50, 200, 50, fill=gradient('royalBlue','deepSkyBlue','dodgerBlue', start='top'))
+Rect(300, 125, 50, 200, fill=gradient('royalBlue','deepSkyBlue','dodgerBlue', start='right'))
+
+
+
+#Bloodmoon
+Rect(0, 0, 400, 300, fill=gradient('orangeRed', rgb(60,20,20), 'black'))
+Rect(0,300,400,100, fill=gradient(rgb(150,50,0,), rgb(20,20,100)))
+
+
+
+#Flower (Delete all the code in your canvas (including comments) and write all of this below)
+# Draws the background and the stem.
+Rect(0, 0, 400, 400, fill='skyBlue')
+Rect(180, 325, 40, 80, fill='green')
+Rect(215, 345, 50, 30, fill='green')
+
+# Adjust the starts of these gradients to properly color the flower.
+# Draws the top row of the flower.
+### Modify Your Code Here ###
+Rect(40, 80, 100, 75, fill=gradient('hotPink', 'indigo', start='top-left'))
+Rect(150, 80, 100, 75, fill=gradient('hotPink', 'indigo', start='top'))
+Rect(260, 80, 100, 75, fill=gradient('hotPink', 'indigo', start='top-right'))
+
+# Draws the middle row of the flower.
+### Modify Your Code Here ###
+Rect(40, 165, 100, 75, fill=gradient('hotPink', 'indigo', start='left'))
+Rect(150, 165, 100, 75, fill=gradient('hotPink', 'indigo'))
+Rect(260, 165, 100, 75, fill=gradient('hotPink', 'indigo', start='right'))
+
+# Draws the bottom row of the flower.
+### Modify Your Code Here ###
+Rect(40, 250, 100, 75, fill=gradient('hotPink', 'indigo', start='bottom-left'))
+Rect(150, 250, 100, 75, fill=gradient('hotPink', 'indigo', start='bottom'))
+Rect(260, 250, 100, 75, fill=gradient('hotPink', 'indigo', start='bottom-right'))
