@@ -1,0 +1,16 @@
+#Reflection
+Rect(0,200,400,200, fill='steelBlue')
+Rect(175,225,50,50, fill='sienna',opacity=30)
+Rect(125,275,150,100,fill='green', opacity=30)
+
+
+
+#3D Glasses
+Rect(60,60,125,120, fill='red', opacity=60)
+Rect(215,60,125,120, fill='blue', opacity=60)
+
+
+
+#Glass of Milk
+Rect(110,120,180,200, fill='white')
+Rect(110,80,180,240, fill=gradient('lightGrey','grey','lightGrey', start='left'), opacity=50)
