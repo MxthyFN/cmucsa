@@ -1,0 +1,67 @@
+#Inflating Balloon
+Rect(0, 0, 400, 400, fill='skyBlue')
+
+def drawBalloon(inflatedAmount, lightColor, darkColor):
+    # Update these shapes to use the parameters.
+    ### Fix Your Code Here ###
+    RegularPolygon(200, 370, 20, 3, fill=darkColor)
+    Oval(200, 185, inflatedAmount, 340,
+         fill=gradient(lightColor, darkColor, start='right-top'))
+
+##### Place your code above this line, code below is for testing purposes #####
+# test case:
+drawBalloon(300, 'lightSalmon', 'crimson')
+
+
+
+#Three Stripe Flag
+def threeStripeFlag(country, color1, color2, color3):
+    # Fix the label so it uses the function parameter: country.
+    ### Fix Your Code Here ###
+    Label(country, 200, 60, size=40, bold=True)
+
+    # Draw the rectangles and use the correct function parameters for each one!
+    ### Place Your Code Here ###
+    Rect(50,100,100,200, fill=color1)
+    Rect(150,100,100,200, fill=color2)
+    Rect(250,100,100,200, fill=color3)
+
+##### Place your code above this line, code below is for testing purposes #####
+# test case:
+threeStripeFlag('Belgium', 'black', 'gold', 'red')
+
+
+
+#Airport Sign
+# sign
+Rect(0, 0, 400, 400, fill='whiteSmoke')
+Rect(20, 50, 360, 100, fill='gold', border='black')
+Rect(20, 150, 360, 220, fill=rgb(40, 40, 40))
+Label('Departures', 200, 87, size=36)
+Label('TIME', 50, 135, size=14)
+Label('DESTINATION', 200, 135, size=14)
+Label('GATE', 340, 135, size=14)
+Rect(33, 65, 45, 45, fill='white', border='black')
+Polygon(44, 80, 50, 89, 43, 91, 37, 85, 41, 94, 73, 86, 75, 84, 70, 83, 57, 85)
+
+# departed flights
+Label('02:00', 50, 180, fill='dimGray', size=20, bold=True)
+Label('Chicago', 200, 180, fill='dimGray', size=20, bold=True)
+Label('C12', 355, 180, fill='dimGray', size=20, bold=True)
+Label('03:00', 50, 230, fill='dimGray', size=20, bold=True)
+Label('Toronto', 200, 230, fill='dimGray', size=20, bold=True)
+Label('B97', 355, 230, fill='dimGray', size=20, bold=True)
+Label('03:30', 50, 280, fill='dimGray', size=20, bold=True)
+Label('Reykjavik', 200, 280, fill='dimGray', size=20, bold=True)
+Label('A82', 355, 280, fill='dimGray', size=20, bold=True)
+
+def updateDepartingFlights(time, destination, gate):
+    # Update the flight information below.
+    ### Fix Your Code Here ###
+    Label(time, 50, 330, fill='whiteSmoke', size=20, bold=True)
+    Label(destination, 200, 330, fill='whiteSmoke', size=20, bold=True)
+    Label(gate, 355, 330, fill='whiteSmoke', size=20, bold=True)
+
+##### Place your code above this line, code below is for testing purposes #####
+# test case:
+updateDepartingFlights('04:00', 'Madrid', 'D82')
