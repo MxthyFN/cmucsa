@@ -1,0 +1,25 @@
+#France
+Rect(50,100,100,200, fill='navy')
+Rect(250,100,100,200, fill='crimson') 
+Rect(50,100,300,200, fill=None, border='black', borderWidth=5)
+#Columbia
+Rect(50, 100, 300, 100, fill='gold')
+
+Rect(50, 200, 300, 50, fill='navy')
+Rect(50, 250, 300, 50, fill='crimson')
+
+
+
+#Botswana
+Rect(50,100,300,75, fill='steelBlue')
+Rect(50,225,300,75, fill='steelBlue')
+Rect(50,185,300,30, fill='black')
+Rect(50,100,300,200, fill=None, border='black', borderWidth=5)
+
+
+
+#Gift Wrapped
+Rect(100,50,200,300, fill='seaGreen')
+Rect(140,100,70,100, fill='antiqueWhite')
+Rect(160,50,20,300, fill='crimson')
+Rect(100,120,200,20, fill='crimson')
