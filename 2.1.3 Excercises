@@ -1,0 +1,70 @@
+#Two Hexagons
+def drawTwoHexagons(color):
+    RegularPolygon(200,100,100,6, fill=color)
+    RegularPolygon(200,300,100,6, fill=None, border=color, borderWidth=8)
+    pass
+
+##### Place your code above this line, code below is for testing purposes #####
+# test case:
+drawTwoHexagons('green')
+
+
+
+#Flower (Clear Canvas)
+Rect(0, 0, 400, 400, fill='skyBlue')
+
+def drawFlower(color):
+    # Change these shapes so they use the color parameter for the flower petals.
+    ### Modify Your Code Here ###
+    RegularPolygon(200, 300, 30, 4, fill='green')
+    RegularPolygon(200, 340, 30, 4, fill='green')
+    RegularPolygon(200, 380, 30, 4, fill='green')
+    RegularPolygon(200, 200, 100, 4, fill=color)
+
+    RegularPolygon(200, 200, 50, 4, fill='sienna')
+    RegularPolygon(150, 150, 50, 4, fill=color)
+    RegularPolygon(150, 250, 50, 4, fill=color)
+    RegularPolygon(250, 150, 50, 4, fill=color)
+    RegularPolygon(250, 250, 50, 4, fill=color)
+
+##### Place your code above this line, code below is for testing purposes #####
+# test case:
+drawFlower('gold')
+
+
+
+#3D Labels (Clear Canvas)
+Rect(0, 0, 400, 400, fill='aliceBlue')
+
+def draw3DLabel(text):
+    # Draw two labels, one centered slightly to the right of the other.
+    ### Place Your Code Here ###
+    Label(text,205,200, size=65, font='arial', bold=True, fill='darkGreen' )    
+    Label(text,200,200, size=65, font='arial', bold=True, fill='limeGreen')
+    pass
+
+##### Place your code above this line, code below is for testing purposes #####
+# test case:
+draw3DLabel('Hello World')
+
+
+
+#Cooking an egg
+Rect(0, 0, 400, 400, fill='goldenrod')
+
+# pan
+Line(105, 305, 0, 400, fill='dimGrey', lineWidth=40)
+Circle(200, 200, 145, fill=rgb(60, 60, 60), border='darkGrey', borderWidth=10)
+Circle(200, 200, 135, fill=None,
+       border=gradient('black', 'black', 'black', 'dimGrey'), borderWidth=20)
+
+def drawEgg(opacity):
+    # Draw the egg, using the opacity provided to the function.
+    ### Place Your Code Here ###
+    Oval(230,220,100,120, fill='white', opacity=opacity)
+    Circle(220,220,20, fill='gold', opacity=opacity)
+    pass
+
+
+
+    
