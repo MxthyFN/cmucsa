@@ -1,0 +1,163 @@
+#Mike Wazowski
+### Place Your Code Here ###
+#BackGround
+Rect(0,0,400,400, fill='crimson')
+#L1
+Line(0,200,400,200, lineWidth=400, opacity=20, fill='darkRed', dashes=(5,75))
+#Ears
+#LE
+Polygon(135,90,150,105,130,125, fill=gradient('whiteSmoke', 'khaki', start='top'))
+#RE
+Polygon(265,90,270,125,250,105, fill=gradient('whiteSmoke', 'khaki', start='top'))
+#Feet
+
+
+#LF
+Line(230,300,230,360, lineWidth=15, fill=gradient('mediumSeaGreen', 'greenYellow', start='left'))
+Line(170,300,170,360, lineWidth=15, fill=gradient('mediumSeaGreen', 'greenYellow', start='left'))
+
+
+
+Oval(200,333,55,110, fill='crimson')
+Oval(170,360,30,20, fill=gradient('mediumSeaGreen', 'greenYellow', start='left'))
+Oval(230,360,30,20, fill=gradient('mediumSeaGreen', 'greenYellow', start='left'))
+
+
+Line(112,240,105,265,fill=gradient('mediumSeaGreen', 'greenYellow', start='left'),lineWidth=8)
+Line(106,260,110,310,fill=gradient('mediumSeaGreen', 'greenYellow', start='left'),lineWidth=8)
+Line(110,300,120,310,fill=gradient('mediumSeaGreen', 'greenYellow', start='left'),lineWidth=8)
+Line(293,225,290,310, fill=gradient('mediumSeaGreen', 'greenYellow', start='left'), lineWidth=8)
+Line(290,300,280,310, fill=gradient('mediumSeaGreen', 'greenYellow', start='left'),lineWidth=8)
+Oval(290,310,15,25, fill=gradient('mediumSeaGreen', 'greenYellow', start='left'))
+Oval(110,310,15,25,fill=gradient('mediumSeaGreen', 'greenYellow', start='left'))
+
+
+
+
+Oval(200,200,200,220, fill=gradient('greenYellow', 'greenYellow', 'mediumSeaGreen'))
+
+#Mouth
+Circle(155,233,10, fill='darkGreen')
+Circle(155,235,10, fill='greenYellow')
+Circle(245,233,10, fill='darkGreen')
+Circle(245,235,10, fill='greenYellow')
+Oval(200,232,100,50, fill='darkGreen')
+Oval(200,230,100,50, fill='greenYellow')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Circle(200,160,50, fill='white')
+Circle(200,160,25, fill=gradient('mediumSeaGreen', 'seaGreen'))
+Star(200,160,25,25, fill=gradient('springGreen', 'mediumSeaGreen'), roundness=50)
+Circle(200,160,15, fill='black')
+Circle(190,150,5, fill='white')
+Circle(180,150,2, fill='white')
+
+
+
+#Sunset
+
+Rect(0,0,400,200, fill=gradient('lightSkyBlue', 'pink','coral', start='top'))
+
+#Sun
+
+Circle(200,200,70, fill='orange', opacity=50)
+Circle(200,200,50, fill='gold')
+#Ocean
+Rect(0,200,400,60, fill='dodgerBlue')
+Rect(0,300,400,100, fill='turquoise')
+Rect(0,260,400,40, fill='deepSkyBlue')
+#Reflections
+Oval(200,204,120,5, fill='gold', opacity=80)
+Oval(165,210,80,5, fill='gold', opacity=70)
+Oval(255,210,70,5, fill='gold', opacity=70)
+Oval(230,217,95,5, fill='gold', opacity=70) 
+Oval(190,223,60,5, fill='gold', opacity=60)
+Oval(235,232,60,5, fill='gold', opacity=40)
+Oval(155,232,60,5, fill='gold', opacity=40)
+
+#whiteSand
+Polygon(0,280,0,400,400,400,400,320,300,335, fill='white')
+#lightSand
+Polygon(0,290,0,400,400,400,400,330,300,360, fill='wheat')
+#Tree
+Polygon(30,360,55,360,50,275,60,175,50,175,35,280, fill='sienna')
+
+#darkSand
+Polygon(0,335,0,400,400,400,400,390, fill='burlyWood')
+
+#PalmTree
+Star(55,175,60,9, roundness=50, fill='limeGreen')
+Circle(20,185,7, fill='maroon')
+Star(55,175,50,8, fill='green', roundness=50)
+Circle(40,180,7, fill='maroon')
+Circle(40,200,7, fill='maroon')
+
+
+
+#Painter
+#Background + Clouds
+Rect(0,0,400,400, fill='whiteSmoke')
+Oval(120,150,150,190, fill='mediumPurple')
+Oval(70,210,200,150, fill='mediumPurple')
+Oval(230,160,150,150, fill='mediumPurple')
+Rect(0,200,400,200, fill='mediumPurple')
+Oval(330,210,150,110, fill='mediumPurple')
+#Ladder
+Line(300,95,320,400, fill='black')
+Line(340,95,360,400, fill='black')
+Line(320,95,340,400, fill='black', lineWidth=40, dashes=(2,15))
+#PaintBucket
+Rect(35,370,30,30, fill='black')
+Circle(50,370,15, fill=None, border='black')
+Line(40,370,60,370, fill='darkViolet', lineWidth=4)
+#Rollers
+Line(145,220,145,260, fill='white', lineWidth=4)
+Line(130,210,145,220,fill='white', lineWidth=2)
+Line(160,210,145,220,fill='white', lineWidth=2)
+#Line(160,210,145,220,fill='white', lineWidth=2)
+Line(130,205,160,205,fill='white', lineWidth=8)
+
+#Person1
+Line(90,320,80,400, fill='black', lineWidth=2)
+Line(120,320,125,400, fill='black',lineWidth=2)
+Circle(105,245,20, fill='black')
+Oval(105,300,40,80, fill='black')
+Polygon(70,330,90,275,90,300, fill='black')
+Polygon(115,285,145,255,125,300, fill='black')
+Rect(85,300,40,40, fill='black')
+
+#
+
+Line(150,120,180,150, fill='white', lineWidth=4)
+Line(130,115,150,120, fill='white', lineWidth=2)
+Line(145,100,150,120, fill='white', lineWidth=2)
+Line(125,115,145,95, fill='white', lineWidth=8)
+
+Line(270,225,275,280, fill='black', lineWidth=2)
+Line(285,210,325,265, fill='black', lineWidth=2)
+Circle(240,160,20, fill='black')
+Line(240,160,280,220, fill='black', lineWidth=40)
+Circle(220,130,20, fill='black')
+Polygon(250,145,305,155,260,160, fill='black')
+Polygon(175,145,225,160,230,175, fill='black')
